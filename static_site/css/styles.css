@@ -1,0 +1,70 @@
+body {
+  background-color: #FEF0F0;
+}
+
+#nav-container {
+  background-color: #F2AD0C;
+}
+/*.navbar-default {
+  background-color: teal;
+}*/
+
+#header-navbar {
+  background-color: red;
+  /*background-color: #F2AD0C;*/
+  color: #fff;
+}
+
+/*.container-fluid {
+  background-color: #FEF0F0;
+}*/
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+/*.navbar-collapse {
+  background-color: teal;
+}*/
+#nav-list > li > a {
+  background-color: teal;
+  color: white;
+  font-size: 120%;
+  border: 1px solid #e7e7e7;
+}
+
+#nav-list > li > a:hover {
+  background-color: #b5c9b9;
+  color: white;
+  font-size: 120%;
+  border: 1px solid #e7e7e7;
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:focus {
+  color: white;
+  font-size: 120%;
+}
+
+section {
+  height: 1000px;
+  background-color: #b5c9b9;
+  /*background-color: #F2AD0C;*/
+}
+
+section > p {
+  padding-top: 10px;
+  font-weight: bold;
+}
+/*.mobile-menu:hover {
+  color: white;
+}
+
+.mobile-menu > a {
+  color: white;
+}*/
+
+@media screen and (max-width: 767px) {
+  .col-xs-12 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
